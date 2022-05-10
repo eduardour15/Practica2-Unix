@@ -2,7 +2,7 @@
 #include <time.h>
 #include <rpc/rpc.h>
 #include "rhora.h"
-#define Rmaquina "localhost"
+#define Rmaquina "10.0.2.15"
 static CLIENT *clte_rhora;
 int obten_segundos(time_t *s)
 {
